@@ -16,6 +16,7 @@ public class Hooks {
 
     @After
     public void tearDown() throws Exception {
+
         reset();
     }
 }
